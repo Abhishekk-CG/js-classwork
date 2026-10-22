@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let emptyValue = null;
+        console.log(typeof(emptyValue));
+        let x=-Infinity;
+        console.log(typeof(x));
+        let c="apple";
+        console.log(typeof(c));
+        let b=true;
+        console.log(typeof(b));
+        let d;
+        console.log(typeof(d));
+        let e=null;
+        console.log(typeof(e))
+        let names=[1,2,3,4,5]
+        console.log(names.length)
+        function division(p,q){
+            return p/q;
+        };
+        console.log(division(50,10));
+        function calculator(a,b){
+            console.log(a+b); 
+            console.log(a-b); 
+            console.log(a*b); 
+            console.log(a/b); 
+        };
+        calculator(100,100)
+        function greet(){
+            return("Hello everyone");
+        };
+        console.log(greet())
+        let baseRent=12500;
+        let electricityBill=1000;
+        let otherCharges=2500;
+        let totalBill=baseRent+electricityBill+otherCharges;
+        console.log("The total monthly rent is = Rs.",totalBill)
+
+        let totalTime=100;
+        let timeSpent=50;
+        let timeLeft=totalTime-timeSpent;
+        console.log("The total time left with you is",timeLeft,"mins.")
+
+        let n=79;
+        let friendsTotal=4;
+        let leftOver=n%friendsTotal;
+        console.log(leftOver)
+
+        let timeMin=130;
+        let hout=Math.floor(130/60);
+        let min= 130%60;
+        console.log("Its converted in ",hout,"hours and",min,"mins.")
+
+        let side=5;
+        let areaSquare=side**2;
+        console.log(areaSquare)
+
+        let maxLoginAttempts=3;
+
+        let existingScore=1500;
+        let bonusScore=120;
+        existingScore += bonusScore;
+        console.log(existingScore)
+        console.log(`The total existing score is ${existingScore}`)
+
+        let emiPaid=1;
+        let emiLeft=36;
+        emiLeft -= emiPaid;
+        console.log(emiLeft)
+
+        let price = 5000;
+        let saleDiscount =.75;
+        price *= saleDiscount;
+        console.log(price)
+
+        let dataTotal=1000;
+        let memberTotal=10;
+        console.log(`The shared part of every person is ${dataTotal/=memberTotal} mb.`)
+
+        let totalSongs=39;
+        let arrange=5;
+        totalSongs%=arrange;
+        console.log(totalSongs);
+
+        
+
+
+
+
+
+    </script>
+</body>
+</html>
