@@ -119,4 +119,3 @@ const company={
     },
     employees:["Abhishek","Abhinav","Abhinash"]
 };
-for(let key in company.)
