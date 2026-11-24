@@ -20,3 +20,6 @@
 // };
 
 // 2.
+let m=2;
+let n=m++ + ++m;
+console.log(m,n)

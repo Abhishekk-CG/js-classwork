@@ -79,3 +79,8 @@ for (var i = 1; i <= 3; i++) {
 }
 
 console.log("Outside:", i);
+
+// 16.
+function car(brand,model,year){
+    
+}
