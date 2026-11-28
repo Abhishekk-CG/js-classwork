@@ -111,11 +111,70 @@
 //     count++;
 // };
 // console.log(count)
-// 11.
-const company={
-    address:{
-        city: "Ahmedabad",
-        pincode: 373821
-    },
-    employees:["Abhishek","Abhinav","Abhinash"]
-};
+// // 11.
+// const company={
+//     address:{
+//         city: "Ahmedabad",
+//         pincode: 373821
+//     },
+//     employees:["Abhishek","Abhinav","Abhinash"]
+// };
+// console.log(`${company.address.city} is the address of the employee ${company.employees[0]}.`)
+// // 12.
+// const games=[
+//     {name:"GTA 6",genre:"Action",rating:"9.2"},
+//     {name:"GTA 5",genre:"Action",rating:"9.5"},
+//     {name:"GTA 4",genre:"Action",rating:"9.1"}
+// ];
+// for(let i=0; i<=games.length-1; i++){
+//     console.log("Name of the game: ",games[i].name)
+//     console.log("Genre of the game: ",games[i].genre)
+//     console.log("Rating of the game: ",games[i].rating)
+// };
+
+// // 13.
+// const products=[
+//     {productName: "Mobile", price:100000},
+//     {productName: "laptop", price:500000},
+//     {productName: "Tablet", price:30000},
+//     {productName: "Andriof", price:30000}
+// ];
+// for(let i=0; i<=products.length-1; i++){
+//     console.log(`Product Name: ${products[i].productName}`)
+//     console.log(`Price: ${products[i].price}`)
+// };
+// // 14.
+// const students = [
+//     {name: "Neha", marks: 85},
+//     {name: "Raj", marks: 90},
+//     {name: "Amit", marks: 92}
+// ];
+// let highestMarks=0;
+// let topper="";
+// for(let i=0;i<students.length;i++){
+//     if(students[i].marks > highestMarks){
+//         highestMarks=students[i].marks
+//         topper=students[i].name
+//     };
+// };
+// console.log(`${topper} is the Topper and has secured ${highestMarks} marks.`)
+// // 15.
+// const book={
+//     name: "The life of Mahatma",
+//     writer: "Louis Fischer"
+// };
+// console.log(book)
+// const books=["A gift to Monotheism","The life of Mahatma","Why i am an Athiest"]
+// console.log(books)
+// // 16.
+// const company={
+//     address:{
+//         city: "Ahmedabad",
+//         pincode: 373821
+//     },
+//     employees:["Abhishek","Abhinav","Abhinash"]
+// };
+// for(let key in company.address){
+//     console.log(`${key}: ${company.address[key]}`);
+// };
+// 17.
